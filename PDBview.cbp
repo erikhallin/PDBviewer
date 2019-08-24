@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PDVview" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option show_notes="0">
+			<notes>
+				<![CDATA[Just Nu
+
+
+---------
+
+Laddar in PDB
+
+mäter upp avstånd från center axis till kant
+
+beräknar grid
+
+genererar mesh
+
+beräknar kanalavstånd
+
+beräkna volym av kanal <---------
+-konvex
+-konkav
+
+ritar upp:
+-alpha trace
+-atomer
+-mesh surface
+-kanal avstånd
+-kanal yta
+
+Kan printa:
+-aktuella kanalavstånd för denna vinkel (+180)
+-genomsnittsavstånd för kanal
+
+HUD:
+-meny för att ge namn på pdb
+-toogla viewmode, rolling/arcball
+-visa alpha trace
+-visa atomer?
+-visa protein yta
+-visa kanalavstånd (med linjer och med ett värde numeriskt som kontroll)
+-output kanalavstånd
+]]>
+			</notes>
+		</Option>
+		<Build>
+			<Target title="Debug">
+				<Option output="Debug" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="Release" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="gdi32" />
+		</Linker>
+		<Unit filename="arcball.cpp" />
+		<Unit filename="arcball.h" />
+		<Unit filename="imageloader.cpp" />
+		<Unit filename="imageloader.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="menu.cpp" />
+		<Unit filename="menu.h" />
+		<Unit filename="protein.cpp" />
+		<Unit filename="protein.h" />
+		<Unit filename="resource.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="stereo_cam.cpp" />
+		<Unit filename="stereo_cam.h" />
+		<Unit filename="text_box.cpp" />
+		<Unit filename="text_box.h" />
+		<Unit filename="vec.cpp" />
+		<Unit filename="vec.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

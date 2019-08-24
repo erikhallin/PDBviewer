@@ -1,0 +1,183 @@
+# depslib dependency file v1.0
+1348425844 source:c:\erikprogram\pdb viewer - new\protein.cpp
+	"protein.h"
+
+1348411590 c:\erikprogram\pdb viewer - new\protein.h
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<stdlib.h>
+	<vector>
+	<gl\gl.h>
+	<gl\glu.h>
+	<windows.h>
+	<math.h>
+	<map>
+	"arcball.h"
+	"stereo_cam.h"
+	"text_box.h"
+
+1348411590 source:c:\erikprogram\pdb viewer - new\main.cpp
+	<windows.h>
+	<fcntl.h>
+	<gl\gl.h>
+	<gl\glu.h>
+	<math.h>
+	<iostream>
+	<fstream>
+	<string>
+	<stdlib.h>
+	<vector>
+	"protein.h"
+	"menu.h"
+	"resource.h"
+
+1336458587 source:c:\users\erik\desktop\erik hallin\dropbox\program\pdb viewer - new\protein.cpp
+	"protein.h"
+
+1335893476 c:\users\erik\desktop\erik hallin\dropbox\program\pdb viewer - new\protein.h
+	<iostream>
+	<fstream>
+	<string>
+	<stdlib.h>
+	<vector>
+	<gl\gl.h>
+	<gl\glu.h>
+	<windows.h>
+	<math.h>
+
+1335612575 source:c:\users\erik\desktop\erik hallin\dropbox\program\pdb viewer - new\main.cpp
+	<gl\gl.h>
+	<gl\glu.h>
+	<math.h>
+	<iostream>
+	<fstream>
+	<string>
+	<stdlib.h>
+	<vector>
+	"protein.h"
+
+1345807026 source:c:\cpp\pdb viewer - new\protein.cpp
+	"protein.h"
+
+1346587339 c:\cpp\pdb viewer - new\protein.h
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<stdlib.h>
+	<vector>
+	<gl\gl.h>
+	<gl\glu.h>
+	<windows.h>
+	<math.h>
+	<map>
+	"arcball.h"
+	"stereo_cam.h"
+
+1346601339 source:c:\cpp\pdb viewer - new\main.cpp
+	<windows.h>
+	<fcntl.h>
+	<gl\gl.h>
+	<gl\glu.h>
+	<math.h>
+	<iostream>
+	<fstream>
+	<string>
+	<stdlib.h>
+	<vector>
+	"protein.h"
+	"menu.h"
+	"resource.h"
+
+1348336033 source:c:\erikprogram\pdb viewer - new\arcball.cpp
+	"arcball.h"
+	<iostream>
+	<fstream>
+
+1348261364 c:\erikprogram\pdb viewer - new\arcball.h
+	"vec.h"
+	<GL\gl.h>
+	<GL\glu.h>
+
+1338129426 c:\cpp\pdb viewer - new\arcball.h
+	<cmath>
+
+1312594760 source:c:\cpp\pdb viewer - new\arcball.cpp
+	"arcball.h"
+	<GL\gl.h>
+	<GL\glu.h>
+
+1346576580 c:\cpp\pdb viewer - new\menu.h
+	<windows.h>
+	<gl\gl.h>
+	<gl\glu.h>
+	<string>
+	<fstream>
+	<iostream>
+	<sstream>
+
+1346578897 source:c:\cpp\pdb viewer - new\menu.cpp
+	"menu.h"
+
+1346947336 c:\erikprogram\pdb viewer - new\menu.h
+	<windows.h>
+	<gl\gl.h>
+	<gl\glu.h>
+	<string>
+	<fstream>
+	<iostream>
+	<sstream>
+
+1346948077 source:c:\erikprogram\pdb viewer - new\menu.cpp
+	"menu.h"
+
+1344236108 c:\cpp\pdb viewer - new\resource.h
+
+1344236002 source:c:\cpp\pdb viewer - new\resource.rc
+	"resource.h"
+
+1344236108 c:\erikprogram\pdb viewer - new\resource.h
+
+1348342678 source:c:\erikprogram\pdb viewer - new\resource.rc
+	"resource.h"
+
+1345748658 c:\erikprogram\pdb viewer - new\stereo_cam.h
+	<math.h>
+	<gl\gl.h>
+
+1345755807 source:c:\erikprogram\pdb viewer - new\stereo_cam.cpp
+	"stereo_cam.h"
+
+1345748658 c:\cpp\pdb viewer - new\stereo_cam.h
+	<math.h>
+	<gl\gl.h>
+
+1345755807 source:c:\cpp\pdb viewer - new\stereo_cam.cpp
+	"stereo_cam.h"
+
+1325249352 source:c:\erikprogram\pdb viewer - new\imageloader.cpp
+	<assert.h>
+	<fstream>
+	"imageloader.h"
+
+1325249352 c:\erikprogram\pdb viewer - new\imageloader.h
+
+1348408946 c:\erikprogram\pdb viewer - new\text_box.h
+	<iostream>
+	<string>
+	<gl\gl.h>
+	<ctype.h>
+	"imageloader.h"
+	"vec.h"
+
+1348409217 source:c:\erikprogram\pdb viewer - new\text_box.cpp
+	"text_box.h"
+
+1348247958 c:\erikprogram\pdb viewer - new\vec.h
+	<cmath>
+
+1348247945 source:c:\erikprogram\pdb viewer - new\vec.cpp
+	"vec.h"
+
